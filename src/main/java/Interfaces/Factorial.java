@@ -12,6 +12,8 @@ public interface Factorial {
     Integer division(int a, int b);
 
     Integer multiplication(int a, int b);
+
+    void show();
 }
 
 

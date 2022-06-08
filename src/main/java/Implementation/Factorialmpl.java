@@ -38,4 +38,9 @@ public class Factorialmpl implements Interfaces.Factorial {
     public Integer multiplication(int a, int b) {
         return a*b;
     }
+
+    @Override
+    public void show() {
+        System.out.println("show method");
+    }
 }
